@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Web Portal</title>
+		<style>
+			* { margin: 0px; padding: 0px; }
+			body {
+				color: #0c0c0c;
+				background-color: #f2f4f7;
+				font-size: 12px;
+				font-family: 'Arial';
+			}
+			.container {
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			main {
+				background-color: #f2f4f7;
+				padding: 20px;
+			}
+			
+			#information {
+				background-color: #f2f4f7;
+				padding: 20px;
+			}
+			.server span {
+				padding: 5px;
+			}
+			.server #server {
+				margin-top: 10px;
+				margin-left: 5px;
+			}
+			
+			.deploy {
+				margin-top: 25px;
+				border: 0.5px solid;
+				padding: 10px;
+			}
+			.deploy .submit {
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<header id="information">
+			<div class="container">
+				<h1>Build Fetcher and Deployment Tool</h1><br>
+				<p>This webpage is used to deploy the <strong>Build Grabber</strong> tool onto endpoints so you can update them with builds and perform management actions without having to remote onto the machine.</p>
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="server">
+					<span><span class="important">** Important ** </span> Please enter the endpoint that will act as the Server</span><br>
+					<input type="text" id="server">
+				</div>
+			
+				<div class="deploy">
+				
+					<h2>Deploy Agent</h2><br>
+					<div class="machine"><div class="label">Machine</div> <input type="text" id="machine"></div>
+					
+					<div class="username"><div class="label">Username</div> <input type="text" id="username"></div>
+					
+					<div class="password"><div class="label">Password</div> <input type="password" id="password"></div>
+					
+					<div class="submit"><button id="send-deploy">Submit</button></div>
+				</div>
+				
+				<div class="deploy">
+					<h2>Rollback Endpoint</h2>
+					<div class="machine"><div class="label">Machine</div><input type="text" id="machine-rollback"></div>
+					<div class="submit"><button id="send-rollback">Submit</button></div>
+				</div>
+				
+				<div class="deploy">
+					<h2>Set Auto Login</h2>
+					<div class="machine"><div class="label">Machine</div><input type="text" id="machine_login"></div>
+					<div class="username"><div class="label">Username</div><input type="text" id="username_login"></div>
+					<div class="password"><div class="label">Password</div><input type="text" id="password_login"></div>			
+					<div class="submit"><button id="send-login">Submit</button></div>
+				</div>
+			
+				<div class="deploy">
+					<h2>Install MSI</h2>
+					<div class="machine"><div class="label">Machine</div><input type="text" id="machine_msi"></div>
+					<div class="username"><div class="label">MSI Path</div><input type="text" id="msi_path"></div>
+					<div class="submit"><button id="send-msi">Submit</button></div>
+				</div>
+				
+				<div class="deploy">
+					<h2>Deply Config</h2>
+					<div class="machine"><div class="label">Machine</div><input type="text" id="machine_config"></div>
+					<div class="directory"><div class="label">Build Directory</div><input type="text" id="directory_config"></div>
+					<div class="product"><div class="label">Product (EM or FD)</div><input type="text" id="product_config"></div>
+					<div class="autohide"><div class="label">Auto Hide (True or False)</div><input type="text" id="autohide_config"></div>
+					<div class="autohide_username"><div class="label">Auto Hide Username</div><input type="text" id="autohide_username_config"></div>
+					<div class="autohide_Password"><div class="label">Auto Hide Password</div><input type="text" id="autohide_password_config"></div>
+	
+					<div class="submit"><button id="send-config">Submit</button></div>
+				</div>
+			</div>
+		</main>
+				
+		<footer>
+			<div class="container">
+				&copy 2018 - All Rights Reserved
+			</div>
+		</footer>
+		
+		</div>
+		<script type="text/javascript">
+		
+		
+    document.getElementById("send-deploy").onclick = function () {
+			location.href = "http://" + document.getElementById('server').value + ":4444/deploy," + document.getElementById('machine').value + "," + document.getElementById('username').value + "," + document.getElementById('password').value;
+    };
+		
+		 document.getElementById("send-rollback").onclick = function () {
+			location.href = "http://" + document.getElementById('machine-rollback').value + ":4444/rollback";
+			};
+			
+			document.getElementById("send-login").onclick = function () {
+			location.href = "http://" + document.getElementById('machine_login').value + ":4444/autologin," + document.getElementById('username_login').value + "," + document.getElementById('password_login').value;
+			};
+		
+		document.getElementById("send-msi").onclick = function () {
+			location.href = "http://" + document.getElementById('machine_msi').value + ":4444/install," + document.getElementById('msi_path').value
+			};
+		
+		
+		document.getElementById("send-config").onclick = function () {
+			location.href = "http://" + document.getElementById('machine_config').value + ":4444/applyconfig," + document.getElementById('machine_config').value + "," + document.getElementById('directory_config').value + "," + document.getElementById('product_config').value + "," + document.getElementById('autohide_config').value + "," + document.getElementById('autohide_username_config').value  + "," + document.getElementById('autohide_password_config').value
+			};
+	</script>
+		
+	</body>
+</html>
+
+<br><br>

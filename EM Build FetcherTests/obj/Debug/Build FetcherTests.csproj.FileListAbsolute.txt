@@ -1,0 +1,36 @@
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.dll.config
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.pdb
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.exe
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.pdb
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.exe.config
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\obj\Debug\Build FetcherTests.csprojResolveAssemblyReference.cache
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\obj\Debug\Build FetcherTests.csproj.CoreCompileInputs.cache
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\obj\Debug\EM Build FetcherTests.dll
+\\infrastore\Scratch\Suraj_Kumar\EM Build Fetcher\EM Build FetcherTests\obj\Debug\EM Build FetcherTests.pdb
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.dll.config
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build FetcherTests.pdb
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.exe
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.pdb
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\EM Build Fetcher.exe.config
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\obj\Debug\Build FetcherTests.csprojResolveAssemblyReference.cache
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\obj\Debug\Build FetcherTests.csproj.CoreCompileInputs.cache
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\obj\Debug\EM Build FetcherTests.dll
+C:\Users\suraj.kumar\Desktop\EM Build Fetcher\EM Build FetcherTests\obj\Debug\EM Build FetcherTests.pdb
