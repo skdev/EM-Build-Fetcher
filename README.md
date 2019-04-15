@@ -5,14 +5,17 @@ When testing, installing the latest build nightly build can be time consuming an
 This tool solves that issue by monitoring a /build/ folder and if a new update is available, uninstalls the previous version and installs the new one. This way, QA have ready to test software already deployed on their VM's.
 Note: The project is targeted heavily on the program QA tested during my placement year and if you would like to use this tool for your own builds, it will need modifying accordingly.
 
+#### Features
+* Automatic uninstall and install of products
+* Remote client execution
+* Web portal; this allows you to access endpoints remotely and perform operations on them
+* Runs in the background, no configuration required once setup
+
 ## Getting Started
 
 ### Prerequisites
 1. C# version 7.0 or higher and .NET core framework
 2. Access to the network share that builds are located
-
-### Installing
-No setup is required and the project should import into Visual Studio or Ryder without issues.
 
 ## Contributing
 We are happy to have contributions whether it is for small bug fixes or new pieces of major functionality. To contribute changes, you should first fork the upstream repository to your own GitHub account. You can then add a new remove for upstream and rebase any changes to
